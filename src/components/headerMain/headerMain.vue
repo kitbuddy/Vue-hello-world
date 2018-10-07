@@ -44,4 +44,13 @@ export default {
 #message {
   position: absolute;
 }
+
+
+.actionFade-enter-active,
+.actionFade-leave-active {
+  transition: opacity 0.5s;
+}
+.actionFade-enter, .actionFade-leave-to /* .actionFad-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>
